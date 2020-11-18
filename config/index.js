@@ -5,7 +5,7 @@ const config = ()=>{
   switch(env){
     case 'dev': 
     return {
-      DB_URL:   'mongodb+srv://fec_app:fecappdev@feccluster0.fdi4c.gcp.mongodb.net/FEC?retryWrites=true&w=majority',
+      DB_URL:   'erased url for security matters',
       PORT:     3000,
       HASHKEY:  'nodeTestDev',
       EXPIRESIN:'7d',
@@ -13,7 +13,7 @@ const config = ()=>{
     }
     case 'stg': 
     return {
-      DB_URL:   'mongodb+srv://fec_app:fecappdev@feccluster0.fdi4c.gcp.mongodb.net/FEC?retryWrites=true&w=majority',
+      DB_URL:   'erased url for security matters',
       PORT:     3000,
       HASHKEY:  'NodeTestStaging',
       EXPIRESIN:'7d',
@@ -21,7 +21,7 @@ const config = ()=>{
     }
     case 'prod': 
     return {
-      DB_URL:   'mongodb+srv://fec_app:fecappdev@feccluster0.fdi4c.gcp.mongodb.net/FEC?retryWrites=true&w=majority',
+      DB_URL:   'erased url for security matters',
       PORT:     3000,
       HASHKEY:  'bee3e3b012518ac1393cd676bdcae09f',// MD5 key example
       EXPIRESIN:'15m',
